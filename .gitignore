@@ -1,0 +1,37 @@
+# Go build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binaries
+bin/
+build/
+
+# Vendor directory
+/vendor/
+
+# Dependency directories (if using Go modules)
+pkg/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS files
+.DS_Store
+
+# Node modules (if using frontend)
+node_modules/
+.air.toml
